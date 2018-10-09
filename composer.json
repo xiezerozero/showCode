@@ -1,0 +1,16 @@
+{
+  "name": "xl-develop/tourscool",
+  "autoload":{
+    "psr-4":{"Tourscool\\":"src/"}
+  },
+  "config": {
+    "secure-http": false
+  },
+  "require": {
+    "doctrine/dbal": "v2.8.0",
+    "vlucas/phpdotenv": "~2.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.7.0"
+  }
+}
